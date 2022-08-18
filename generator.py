@@ -35,7 +35,7 @@ def input_test(): #True = legal, False = illegal
 def generate(id):
     id = id.copy()
     
-    if id[1:2] == ' ':
+    if id[1] == ' ':
         for i in ( ' A', ' B', ' C', ' D', ' E', ' F', ' G', ' H', ' J', ' K', ' L', ' M', ' N', ' P', ' R', ' S', ' T', ' V', ' W', ' Y', ' Z', 'WX', 'XA', 'XB', 'XC', 'XD', 'XE', 'XG', 'XH'):
             id[0] = i[0]
             id[1] = i[1]
