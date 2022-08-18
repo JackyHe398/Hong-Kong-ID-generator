@@ -72,3 +72,4 @@ if ''.join(known[1:9]).find(' ') == -1:
 else:
     generate(known)
     print(*list(dict.fromkeys(output)),sep = '\n')
+    input()
